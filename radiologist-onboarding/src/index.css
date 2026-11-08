@@ -1,0 +1,42 @@
+@import "tailwindcss";
+/* Tailwind core (includes utilities and components) */
+
+@theme static {
+  --color-black: #2c2c2c;
+  --color-white: #ffffff;
+  --color-gray: #888888;
+  --color-gray-light: #bbbbbb;
+  --color-gray-light2: #eeeeee;
+  --color-gray-dark: #555555;
+
+  --color-primary: #3399ff; /* Blue */
+  --color-primary-light: #66b3ff;
+  --color-primary-dark: #004e85;
+
+  /* --color-secondary: hsl(30, 100%, 50%);  */
+  /* --color-secondary-light: hsl(30, 100%, 65%); */
+  /* --color-secondary-dark: hsl(30, 100%, 40%); */
+}
+
+@custom-variant dark (&:where(.dark, .dark *));
+
+.ag-header {
+  @apply dark:!text-white dark:bg-gray-dark;
+}
+
+.ag-row,
+.ag-paging-panel {
+  @apply dark:bg-black dark:text-white;
+  /* dark:!border-0; */
+}
+.ag-wrapper {
+  @apply dark:!bg-black;
+}
+.ag-root-wrapper {
+  /* @apply border-black; */
+}
+.ag-cell {
+  /* @apply !border-0; */
+}
+div[role="row"] {
+}

@@ -1,0 +1,119 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@import 'ckeditor-tailwind-reset/ckeditor-tailwind-reset';
+
+html,
+body {
+  height: 100%;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+  transition: background-color 5.7s, all 0s,color 5.3s !important;
+}
+.w-20rem {
+  width: 30rem;
+}
+
+/* CKEditor Custom Height */
+.ckeditor-wrapper .ck-editor__editable_inline {
+  min-height: 205px;
+}
+
+/* Table Styling Here */
+.ag-header {
+  @apply dark:!text-white dark:bg-gray-dark;
+}
+
+.ag-row,
+.ag-paging-panel {
+  @apply dark:bg-black dark:text-white;
+}
+
+.ag-viewport {
+  @apply dark:bg-black;
+}
+
+.ag-wrapper {
+  @apply dark:bg-black;
+}
+
+.ag-filter-body-wrapper {
+  @apply dark:bg-black dark:text-white;
+}
+
+.ag-input-field-input {
+  @apply dark:bg-gray-dark dark:text-white;
+}
+
+.ag-input-field-input::placeholder{
+  @apply dark:text-gray-light;
+}
+
+/* CkEditor Styling Here */
+.ck-editor *{
+  font-size: revert;
+  font-weight: revert;
+}
+
+/* html2pdf styling here */
+.page-break {
+  margin-top: 32px;
+  page-break-after: always;
+}
+
+/* Scrollbar Styling */
+
+/* Hide scrollbar for Chrome, Safari and Opera */
+.hide-scrollbar::-webkit-scrollbar {
+  display: none;
+}
+
+/* Hide scrollbar for IE, Edge and Firefox */
+.hide-scrollbar {
+  -ms-overflow-style: none;  /* IE and Edge */
+  scrollbar-width: none;     /* Firefox */
+}
+
+/* Webkit browsers (Chrome, Safari, Edge) */
+.custom-scrollbar::-webkit-scrollbar {
+  width: 6px;
+}
+
+.custom-scrollbar::-webkit-scrollbar-track {
+  background: transparent;
+}
+
+.custom-scrollbar::-webkit-scrollbar-thumb {
+  background-color: rgba(100, 100, 100, 0.4); /* Light gray thumb */
+  border-radius: 4px;
+}
+
+.custom-scrollbar::-webkit-scrollbar-thumb:hover {
+  background-color: rgba(100, 100, 100, 0.6); /* Slightly darker on hover */
+}
+
+/* Firefox */
+.custom-scrollbar {
+  scrollbar-width: thin;
+  scrollbar-color: rgba(100, 100, 100, 0.4) transparent;
+}
+
+/* index.css or your CSS module */
+.ag-overlay-loading-wrapper {
+  @apply dark:bg-black/70;
+}
+
+.ag-overlay-loading-center {
+  @apply dark:text-white bg-inherit;
+}
+
+.ag-body-horizontal-scroll-viewport,
+.ag-center-cols-viewport {
+  scroll-behavior: auto;
+}
+

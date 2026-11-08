@@ -1,0 +1,67 @@
+/* In App.css */
+.ag-grid-container {
+  width: 100%;
+  max-width: 100%;
+}
+
+@media (max-width: 768px) {
+  .ag-grid-container {
+    width: 100%;
+    padding: 0 10px;
+  }
+
+  .ag-theme-alpine {
+    font-size: 12px;
+  }
+}
+/* Check styles by uncommenting */
+/* 
+.ag-theme-alpine {
+  --ag-background-color: var(--color-white);
+  --ag-header-background-color: var(--color-gray-light);
+  --ag-header-foreground-color: var(--color-black);
+  --ag-odd-row-background-color: var(--color-gray-light);
+  --ag-even-row-background-color: var(--color-white);
+  --ag-foreground-color: var(--color-black);
+  --ag-border-color: var(--color-gray-dark);
+}
+.ag-theme-alpine-dark {
+  --ag-background-color: var(--color-gray-dark);
+  --ag-header-background-color: var(--color-gray);
+  --ag-header-foreground-color: var(--color-white);
+  --ag-odd-row-background-color: var(--color-gray);
+  --ag-even-row-background-color: var(--color-gray-dark);
+  --ag-foreground-color: var(--color-white);
+  --ag-border-color: var(--color-gray-light);
+}
+.ag-theme-alpine-dark .ag-header-cell {
+  background-color: var(--color-gray);
+  color: var(--color-white);
+}
+.ag-theme-alpine-dark .ag-row {
+  background-color: var(--color-gray-dark);
+  color: var(--color-white);
+}
+.ag-theme-alpine-dark .ag-row:hover {
+  background-color: var(--color-gray);
+  color: var(--color-white);
+}
+.ag-theme-alpine-dark .ag-row.odd {
+  background-color: var(--color-gray);
+}
+.ag-theme-alpine-dark .ag-row.even {
+  background-color: var(--color-gray-dark);
+  color: var(--color-white);
+}
+.ag-theme-alpine-dark .ag-row.odd:hover {
+  background-color: var(--color-gray);
+  color: var(--color-white);
+}
+.ag-theme-alpine-dark .ag-row.even:hover {
+  background-color: var(--color-gray);
+  color: var(--color-white);
+}
+.ag-theme-alpine-dark .ag-header-cell {
+  background-color: var(--color-gray);
+  color: var(--color-white);
+}  */

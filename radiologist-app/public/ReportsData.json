@@ -1,0 +1,408 @@
+{
+  "unassigned":[
+  {
+    "patientId": "P001",
+    "patientDetails": "John Doe, 45M",
+    "modeType": "CT/Chest",
+    "studyDescription": "Chest CT Scan - Routine",
+    "dateTime": "2025-05-29 08:45",
+    "status": "Critical"
+  },
+  {
+    "patientId": "P002",
+    "patientDetails": "Jane Smith, 32F",
+    "modeType": "MRI/Brain",
+    "studyDescription": "MRI Brain - Migraine",
+    "dateTime": "2025-05-28 14:20",
+    "status": "Normal"
+  },
+  {
+    "patientId": "P003",
+    "patientDetails": "Michael Johnson, 60M",
+    "modeType": "X-Ray/Abdomen",
+    "studyDescription": "Abdominal X-Ray",
+    "dateTime": "2025-05-27 11:10",
+    "status": "Critical"
+  },
+  {
+    "patientId": "P004",
+    "patientDetails": "Emily Davis, 28F",
+    "modeType": "Ultrasound/Pelvis",
+    "studyDescription": "Pelvic Ultrasound",
+    "dateTime": "2025-05-29 09:30",
+    "status": "Normal"
+  },
+  {
+    "patientId": "P005",
+    "patientDetails": "Robert Brown, 50M",
+    "modeType": "CT/Abdomen",
+    "studyDescription": "CT Abdomen with Contrast",
+    "dateTime": "2025-05-26 16:00",
+    "status": "Critical"
+  },
+  {
+    "patientId": "P006",
+    "patientDetails": "Olivia Wilson, 37F",
+    "modeType": "MRI/Spine",
+    "studyDescription": "Spinal MRI for Disc Herniation",
+    "dateTime": "2025-05-25 10:00",
+    "status": "Normal"
+  },
+  {
+    "patientId": "P007",
+    "patientDetails": "William Anderson, 40M",
+    "modeType": "X-Ray/Chest",
+    "studyDescription": "Chest X-Ray - Follow-up",
+    "dateTime": "2025-05-24 13:15",
+    "status": "Normal"
+  },
+  {
+    "patientId": "P008",
+    "patientDetails": "Sophia Martinez, 29F",
+    "modeType": "CT/Head",
+    "studyDescription": "CT Head - Trauma",
+    "dateTime": "2025-05-23 15:45",
+    "status": "Critical"
+  },
+  {
+    "patientId": "P009",
+    "patientDetails": "James Lee, 55M",
+    "modeType": "MRI/Knee",
+    "studyDescription": "Knee MRI - Sports Injury",
+    "dateTime": "2025-05-22 09:30",
+    "status": "Normal"
+  },
+  {
+    "patientId": "P010",
+    "patientDetails": "Isabella Taylor, 34F",
+    "modeType": "Ultrasound/Obstetric",
+    "studyDescription": "Second Trimester Scan",
+    "dateTime": "2025-05-21 11:45",
+    "status": "Normal"
+  },
+  {
+    "patientId": "P011",
+    "patientDetails": "David Harris, 67M",
+    "modeType": "CT/Chest",
+    "studyDescription": "Lung Cancer Screening",
+    "dateTime": "2025-05-20 08:00",
+    "status": "Critical"
+  },
+  {
+    "patientId": "P012",
+    "patientDetails": "Mia Clark, 39F",
+    "modeType": "MRI/Abdomen",
+    "studyDescription": "Abdominal MRI - Liver Lesion",
+    "dateTime": "2025-05-19 14:10",
+    "status": "Normal"
+  },
+  {
+    "patientId": "P013",
+    "patientDetails": "Daniel Lewis, 42M",
+    "modeType": "X-Ray/Knee",
+    "studyDescription": "Knee Pain Evaluation",
+    "dateTime": "2025-05-18 17:30",
+    "status": "Normal"
+  },
+  {
+    "patientId": "P014",
+    "patientDetails": "Grace Hall, 51F",
+    "modeType": "CT/Spine",
+    "studyDescription": "CT Cervical Spine - Injury",
+    "dateTime": "2025-05-17 09:20",
+    "status": "Critical"
+  },
+  {
+    "patientId": "P015",
+    "patientDetails": "Benjamin Allen, 48M",
+    "modeType": "MRI/Brain",
+    "studyDescription": "Brain Tumor Follow-up",
+    "dateTime": "2025-05-16 10:30",
+    "status": "Critical"
+  },
+  {
+    "patientId": "P016",
+    "patientDetails": "Chloe Young, 27F",
+    "modeType": "Ultrasound/Thyroid",
+    "studyDescription": "Thyroid Nodules Evaluation",
+    "dateTime": "2025-05-15 08:45",
+    "status": "Normal"
+  },
+  {
+    "patientId": "P017",
+    "patientDetails": "Logan King, 36M",
+    "modeType": "X-Ray/Wrist",
+    "studyDescription": "Wrist Fracture",
+    "dateTime": "2025-05-14 12:00",
+    "status": "Normal"
+  },
+  {
+    "patientId": "P018",
+    "patientDetails": "Amelia Wright, 31F",
+    "modeType": "MRI/Ankle",
+    "studyDescription": "Ankle Ligament Injury",
+    "dateTime": "2025-05-13 16:15",
+    "status": "Normal"
+  },
+  {
+    "patientId": "P019",
+    "patientDetails": "Jacob Scott, 59M",
+    "modeType": "CT/Brain",
+    "studyDescription": "Stroke Evaluation",
+    "dateTime": "2025-05-12 14:55",
+    "status": "Critical"
+  },
+  {
+    "patientId": "P020",
+    "patientDetails": "Lily Green, 33F",
+    "modeType": "Ultrasound/Breast",
+    "studyDescription": "Breast Lump Assessment",
+    "dateTime": "2025-05-11 11:25",
+    "status": "Critical"
+  },
+  {
+    "patientId": "P021",
+    "patientDetails": "Henry Adams, 46M",
+    "modeType": "X-Ray/Spine",
+    "studyDescription": "Lower Back Pain",
+    "dateTime": "2025-05-10 13:40",
+    "status": "Normal"
+  },
+  {
+    "patientId": "P022",
+    "patientDetails": "Sofia Nelson, 40F",
+    "modeType": "MRI/Pelvis",
+    "studyDescription": "Fibroid Monitoring",
+    "dateTime": "2025-05-09 09:10",
+    "status": "Normal"
+  },
+  {
+    "patientId": "P023",
+    "patientDetails": "Jackson Hill, 38M",
+    "modeType": "CT/Chest",
+    "studyDescription": "Follow-up for Infection",
+    "dateTime": "2025-05-08 10:50",
+    "status": "Critical"
+  },
+  {
+    "patientId": "P024",
+    "patientDetails": "Ella Roberts, 26F",
+    "modeType": "Ultrasound/Abdomen",
+    "studyDescription": "Abdominal Pain Evaluation",
+    "dateTime": "2025-05-07 15:35",
+    "status": "Normal"
+  },
+  {
+    "patientId": "P025",
+    "patientDetails": "Sebastian Moore, 53M",
+    "modeType": "X-Ray/Foot",
+    "studyDescription": "Diabetic Foot Check",
+    "dateTime": "2025-05-06 16:45",
+    "status": "Normal"
+  }
+],
+  "assigned":[
+  {
+    "patientId": "P001",
+    "patientDetails": "John Doe, 45M",
+    "modeType": "CT/Chest",
+    "studyDescription": "Chest CT Scan - Routine",
+    "dateTime": "2025-05-29 08:45",
+    "status": "Critical"
+  },
+  {
+    "patientId": "P002",
+    "patientDetails": "Jane Smith, 32F",
+    "modeType": "MRI/Brain",
+    "studyDescription": "MRI Brain - Migraine",
+    "dateTime": "2025-05-28 14:20",
+    "status": "Normal"
+  },
+  {
+    "patientId": "P003",
+    "patientDetails": "Michael Johnson, 60M",
+    "modeType": "X-Ray/Abdomen",
+    "studyDescription": "Abdominal X-Ray",
+    "dateTime": "2025-05-27 11:10",
+    "status": "Critical"
+  },
+  {
+    "patientId": "P004",
+    "patientDetails": "Emily Davis, 28F",
+    "modeType": "Ultrasound/Pelvis",
+    "studyDescription": "Pelvic Ultrasound",
+    "dateTime": "2025-05-29 09:30",
+    "status": "Normal"
+  },
+  {
+    "patientId": "P005",
+    "patientDetails": "Robert Brown, 50M",
+    "modeType": "CT/Abdomen",
+    "studyDescription": "CT Abdomen with Contrast",
+    "dateTime": "2025-05-26 16:00",
+    "status": "Critical"
+  },
+  {
+    "patientId": "P006",
+    "patientDetails": "Olivia Wilson, 37F",
+    "modeType": "MRI/Spine",
+    "studyDescription": "Spinal MRI for Disc Herniation",
+    "dateTime": "2025-05-25 10:00",
+    "status": "Normal"
+  },
+  {
+    "patientId": "P007",
+    "patientDetails": "William Anderson, 40M",
+    "modeType": "X-Ray/Chest",
+    "studyDescription": "Chest X-Ray - Follow-up",
+    "dateTime": "2025-05-24 13:15",
+    "status": "Normal"
+  },
+  {
+    "patientId": "P008",
+    "patientDetails": "Sophia Martinez, 29F",
+    "modeType": "CT/Head",
+    "studyDescription": "CT Head - Trauma",
+    "dateTime": "2025-05-23 15:45",
+    "status": "Critical"
+  },
+  {
+    "patientId": "P009",
+    "patientDetails": "James Lee, 55M",
+    "modeType": "MRI/Knee",
+    "studyDescription": "Knee MRI - Sports Injury",
+    "dateTime": "2025-05-22 09:30",
+    "status": "Normal"
+  }
+  ],
+  "completed":[
+  {
+    "patientId": "P001",
+    "patientDetails": "Isabella Taylor, 34F",
+    "modeType": "Ultrasound/Obstetric",
+    "studyDescription": "Second Trimester Scan",
+    "dateTime": "2025-05-21 11:45",
+    "status": "Normal"
+  },
+  {
+    "patientId": "P002",
+    "patientDetails": "David Harris, 67M",
+    "modeType": "CT/Chest",
+    "studyDescription": "Lung Cancer Screening",
+    "dateTime": "2025-05-20 08:00",
+    "status": "Critical"
+  },
+  {
+    "patientId": "P003",
+    "patientDetails": "Mia Clark, 39F",
+    "modeType": "MRI/Abdomen",
+    "studyDescription": "Abdominal MRI - Liver Lesion",
+    "dateTime": "2025-05-19 14:10",
+    "status": "Normal"
+  },
+  {
+    "patientId": "P004",
+    "patientDetails": "Daniel Lewis, 42M",
+    "modeType": "X-Ray/Knee",
+    "studyDescription": "Knee Pain Evaluation",
+    "dateTime": "2025-05-18 17:30",
+    "status": "Normal"
+  },
+  {
+    "patientId": "P005",
+    "patientDetails": "Grace Hall, 51F",
+    "modeType": "CT/Spine",
+    "studyDescription": "CT Cervical Spine - Injury",
+    "dateTime": "2025-05-17 09:20",
+    "status": "Critical"
+  },
+  {
+    "patientId": "P006",
+    "patientDetails": "Benjamin Allen, 48M",
+    "modeType": "MRI/Brain",
+    "studyDescription": "Brain Tumor Follow-up",
+    "dateTime": "2025-05-16 10:30",
+    "status": "Critical"
+  },
+  {
+    "patientId": "P007",
+    "patientDetails": "Chloe Young, 27F",
+    "modeType": "Ultrasound/Thyroid",
+    "studyDescription": "Thyroid Nodules Evaluation",
+    "dateTime": "2025-05-15 08:45",
+    "status": "Normal"
+  },
+  {
+    "patientId": "P008",
+    "patientDetails": "Logan King, 36M",
+    "modeType": "X-Ray/Wrist",
+    "studyDescription": "Wrist Fracture",
+    "dateTime": "2025-05-14 12:00",
+    "status": "Normal"
+  },
+  {
+    "patientId": "P009",
+    "patientDetails": "Amelia Wright, 31F",
+    "modeType": "MRI/Ankle",
+    "studyDescription": "Ankle Ligament Injury",
+    "dateTime": "2025-05-13 16:15",
+    "status": "Normal"
+  },
+  {
+    "patientId": "P010",
+    "patientDetails": "Jacob Scott, 59M",
+    "modeType": "CT/Brain",
+    "studyDescription": "Stroke Evaluation",
+    "dateTime": "2025-05-12 14:55",
+    "status": "Critical"
+  },
+  {
+    "patientId": "P011",
+    "patientDetails": "Lily Green, 33F",
+    "modeType": "Ultrasound/Breast",
+    "studyDescription": "Breast Lump Assessment",
+    "dateTime": "2025-05-11 11:25",
+    "status": "Critical"
+  },
+  {
+    "patientId": "P012",
+    "patientDetails": "Henry Adams, 46M",
+    "modeType": "X-Ray/Spine",
+    "studyDescription": "Lower Back Pain",
+    "dateTime": "2025-05-10 13:40",
+    "status": "Normal"
+  },
+  {
+    "patientId": "P013",
+    "patientDetails": "Sofia Nelson, 40F",
+    "modeType": "MRI/Pelvis",
+    "studyDescription": "Fibroid Monitoring",
+    "dateTime": "2025-05-09 09:10",
+    "status": "Normal"
+  },
+  {
+    "patientId": "P014",
+    "patientDetails": "Jackson Hill, 38M",
+    "modeType": "CT/Chest",
+    "studyDescription": "Follow-up for Infection",
+    "dateTime": "2025-05-08 10:50",
+    "status": "Critical"
+  },
+  {
+    "patientId": "P015",
+    "patientDetails": "Ella Roberts, 26F",
+    "modeType": "Ultrasound/Abdomen",
+    "studyDescription": "Abdominal Pain Evaluation",
+    "dateTime": "2025-05-07 15:35",
+    "status": "Normal"
+  },
+  {
+    "patientId": "P016",
+    "patientDetails": "Sebastian Moore, 53M",
+    "modeType": "X-Ray/Foot",
+    "studyDescription": "Diabetic Foot Check",
+    "dateTime": "2025-05-06 16:45",
+    "status": "Normal"
+  }
+  ]
+}

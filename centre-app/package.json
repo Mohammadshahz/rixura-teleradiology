@@ -1,0 +1,61 @@
+{
+  "name": "dwv-react",
+  "version": "0.10.0-beta.0",
+  "description": "Medical viewer using DWV (DICOM Web Viewer) and React.",
+  "author": "ivmartel",
+  "license": "GPL-3.0",
+  "private": true,
+  "dependencies": {
+    "@emotion/react": "^11.14.0",
+    "@emotion/styled": "^11.14.0",
+    "@heroicons/react": "^2.2.0",
+    "@mui/icons-material": "^6.4.8",
+    "@mui/material": "^6.4.8",
+    "@mui/styles": "^6.4.8",
+    "@react-pdf/renderer": "^4.3.0",
+    "@reduxjs/toolkit": "^2.8.2",
+    "ag-grid-community": "^33.3.0",
+    "ag-grid-enterprise": "^33.3.0",
+    "ag-grid-react": "^33.3.0",
+    "alasql": "^4.6.6",
+    "axios": "^1.9.0",
+    "ckeditor-tailwind-reset": "^1.0.5",
+    "dom-to-image": "^2.6.0",
+    "dwv": "0.34.2",
+    "formik": "^2.4.6",
+    "html-react-parser": "^5.2.5",
+    "html-to-image": "^1.11.13",
+    "html2pdf.js": "^0.10.3",
+    "jspdf": "^3.0.1",
+    "jspdf-autotable": "^5.0.2",
+    "react": "^18.3.1",
+    "react-datepicker": "^8.3.0",
+    "react-dom": "^18.3.1",
+    "react-redux": "^9.2.0",
+    "react-router-dom": "^6.30.1",
+    "react-scripts": "^5.0.1",
+    "react-toastify": "^11.0.5",
+    "semver": "^7.7.2",
+    "yup": "^1.6.1"
+  },
+  "devDependencies": {
+    "autoprefixer": "^10.4.21",
+    "canvas": "^3.1.0",
+    "postcss": "^8.5.3",
+    "tailwindcss": "^3.4.17",
+    "webpack-cli": "^6.0.1"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "build-trunk": "PUBLIC_URL=/dwv-react/demo/trunk/ react-scripts build",
+    "build-stable": "PUBLIC_URL=/dwv-react/demo/stable/ react-scripts build",
+    "test": "react-scripts test --env=jsdom"
+  },
+  "browserslist": [
+    ">0.2%",
+    "not dead",
+    "not ie <= 11",
+    "not op_mini all"
+  ]
+}

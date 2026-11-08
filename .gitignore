@@ -1,0 +1,9 @@
+node_modules/
+build/
+dist/
+.env
+.env.*
+!.env.example
+*.zip
+*.dcm
+.DS_Store

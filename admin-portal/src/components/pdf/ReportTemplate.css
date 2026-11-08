@@ -1,0 +1,288 @@
+/* Report Template Styles */
+.report-container {
+  font-family: 'Roboto', Arial, sans-serif;
+  background-color: white;
+  padding: 40px;
+  max-width: 210mm; /* A4 width */
+  margin: 0 auto;
+  color: #333333;
+}
+
+/* Header Styles */
+.report-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.header-content {
+  flex-grow: 1;
+  text-align: center;
+}
+
+.center-name {
+  font-size: 22px;
+  font-weight: bold;
+  color: #0078d4;
+  margin-bottom: 5px;
+  margin-top: 0;
+}
+
+.center-tag {
+  font-size: 14px;
+  font-weight: bold;
+  color: #d41500;
+  margin-bottom: 3px;
+  margin-top: 0;
+}
+
+.center-details {
+  font-size: 12px;
+  color: #333333;
+  margin-bottom: 2px;
+  margin-top: 0;
+}
+
+.logo-container {
+  width: 60px;
+  height: 60px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.center-logo {
+  max-width: 100%;
+  max-height: 100%;
+  object-fit: contain;
+}
+
+/* Divider */
+.divider {
+  border-bottom: 1px solid #000;
+  margin: 10px 0;
+}
+
+/* Patient Card */
+.patient-card {
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  padding: 15px;
+  margin-bottom: 15px;
+  color: black;
+}
+
+.info-row {
+  display: flex;
+  margin-bottom: 8px;
+  flex-wrap: wrap;
+}
+
+.info-item {
+  display: flex;
+  width: 50%;
+  margin-bottom: 5px;
+}
+
+.info-label {
+  font-size: 12px;
+  font-weight: bold;
+  margin-right: 5px;
+}
+
+.info-value {
+  font-size: 12px;
+}
+
+/* Report Title */
+.report-title {
+  font-size: 16px;
+  font-weight: bold;
+  margin-bottom: 15px;
+  margin-top: 15px;
+  text-align: center;
+}
+
+/* Report Content */
+.report-content {
+  font-size: 12px;
+  line-height: 1.5;
+  margin-bottom: 20px;
+  word-wrap: break-word;
+  overflow-wrap: break-word;
+}
+
+/* Override for content HTML elements - Comprehensive styling for all HTML tags */
+
+/* Headings */
+.report-content h1 { font-size: 24px; margin-bottom: 12px; margin-top: 16px; font-weight: bold; color: #333333; }
+.report-content h2 { font-size: 20px; margin-bottom: 10px; margin-top: 14px; font-weight: bold; color: #333333; }
+.report-content h3 { font-size: 18px; margin-bottom: 8px; margin-top: 12px; font-weight: bold; color: #333333; }
+.report-content h4 { font-size: 16px; margin-bottom: 8px; margin-top: 10px; font-weight: bold; color: #333333; }
+.report-content h5 { font-size: 14px; margin-bottom: 6px; margin-top: 8px; font-weight: bold; color: #333333; }
+.report-content h6 { font-size: 12px; margin-bottom: 6px; margin-top: 6px; font-weight: bold; color: #333333; }
+
+/* Paragraphs and basic text elements */
+.report-content p { font-size: 12px; margin-bottom: 12px; line-height: 1.5; }
+.report-content div { font-size: 12px; line-height: 1.5; }
+.report-content blockquote { font-size: 12px; margin: 12px 0; padding: 10px 20px; border-left: 3px solid #0078d4; background-color: #f9f9f9; }
+.report-content pre { font-family: 'Courier New', Courier, monospace; font-size: 11px; padding: 10px; background-color: #f5f5f5; overflow-x: auto; }
+.report-content hr { border: 0; height: 1px; background-color: #ddd; margin: 20px 0; }
+
+/* Lists - Enhanced formatting with better alignment */
+.report-content ul, 
+.report-content ol { 
+  margin-bottom: 12px; 
+  padding-left: 20px;
+}
+
+/* Special treatment for unordered lists */
+.report-content ul {
+  list-style-type: disc;
+  list-style-position: outside;
+}
+
+.report-content ul ul {
+  list-style-type: circle;
+}
+
+.report-content ul ul ul {
+  list-style-type: square;
+}
+
+/* Special treatment for ordered lists */
+.report-content ol {
+  list-style-type: decimal;
+  list-style-position: outside;
+}
+
+.report-content ol ol {
+  list-style-type: lower-alpha;
+}
+
+.report-content ol ol ol {
+  list-style-type: lower-roman;
+}
+
+/* List items with proper marker alignment */
+.report-content li {
+  font-size: 12px;
+  margin-bottom: 6px;
+  line-height: 1.5;
+  position: relative;
+  padding: 0 0 0 4px;
+}
+
+/* Fix list marker alignment */
+.report-content li::marker {
+  vertical-align: baseline;
+}
+
+/* Align list content to be closer to bullets */
+.report-content li > * {
+  display: inline-block;
+  vertical-align: top;
+}
+
+/* Definition lists */
+.report-content dl { margin: 12px 0; }
+.report-content dt { font-size: 12px; font-weight: bold; margin-top: 6px; }
+.report-content dd { font-size: 12px; margin-left: 20px; margin-bottom: 6px; line-height: 1.5; }
+
+/* Text formatting */
+.report-content strong, .report-content b { font-weight: bold; }
+.report-content em, .report-content i { font-style: italic; }
+.report-content u { text-decoration: underline; }
+.report-content s, .report-content strike, .report-content del { text-decoration: line-through; }
+.report-content small { font-size: 10px; }
+.report-content mark { background-color: #ffeb3b; padding: 0 2px; }
+.report-content sub { vertical-align: sub; font-size: smaller; }
+.report-content sup { vertical-align: super; font-size: smaller; }
+
+/* Code elements */
+.report-content code, .report-content kbd, .report-content samp { 
+  font-family: monospace; 
+  font-size: 11px; 
+  background-color: #f5f5f5; 
+  padding: 2px 4px; 
+  border-radius: 3px;
+}
+
+/* Links */
+.report-content a { color: #0078d4; text-decoration: none; }
+.report-content a:hover { text-decoration: underline; }
+
+/* Images and media */
+.report-content img { max-width: 100%; height: auto; }
+.report-content figure { margin: 15px 0; text-align: center; }
+.report-content figcaption { font-size: 10px; color: #666; text-align: center; }
+.report-content audio, .report-content video { max-width: 100%; }
+
+/* Tables */
+.report-content table { border-collapse: collapse; width: 100%; margin: 15px 0; }
+.report-content table, .report-content th, .report-content td { border: 1px solid #ddd; }
+.report-content th, .report-content td { padding: 8px; text-align: left; vertical-align: top; font-size: 12px; }
+.report-content th { background-color: #f5f5f5; font-weight: bold; }
+
+/* Forms */
+.report-content form { margin: 12px 0; }
+.report-content fieldset { border: 1px solid #ddd; padding: 10px; margin: 12px 0; border-radius: 3px; }
+.report-content legend { font-size: 12px; font-weight: bold; padding: 0 5px; }
+.report-content label { font-size: 12px; }
+.report-content input, .report-content select, .report-content textarea { font-size: 12px; padding: 5px; }
+.report-content button { font-size: 12px; padding: 5px 10px; background-color: #0078d4; color: white; border: none; }
+
+/* Other semantic elements */
+.report-content address { font-style: normal; }
+.report-content cite { font-style: italic; }
+.report-content q { quotes: '"' '"' ''' '''; }
+
+/* Signature Section */
+.signature-section {
+  margin-top: 30px;
+}
+
+.signature {
+  width: 120px;
+  height: 40px;
+  object-fit: contain;
+  margin-bottom: 10px;
+}
+
+.issued-by {
+  font-size: 12px;
+  margin-top: 5px;
+  margin-bottom: 2px;
+}
+
+/* Disclaimer */
+.disclaimer {
+  font-size: 10px;
+  color: #555555;
+  margin-top: 15px;
+  line-height: 1.5;
+}
+
+.disclaimer p {
+  margin-top: 5px;
+  margin-bottom: 0;
+}
+
+/* Footer */
+.footer {
+  margin-top: 30px;
+  font-size: 10px;
+  color: #555555;
+  text-align: center;
+  border-top: 1px solid #0078d4;
+  padding-top: 10px;
+}
+
+/* Print-specific styles */
+@media print {
+  .report-container {
+    padding: 20px;
+    max-width: 100%;
+  }
+}

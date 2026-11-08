@@ -1,0 +1,80 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+html,
+body {
+  height: 100%;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+  transition: background-color 5.7s, color 5.3s !important;
+}
+
+
+/* Table Styling Here */
+.ag-header {
+  @apply dark:!text-white dark:bg-gray-dark;
+}
+.ag-row,
+.ag-paging-panel {
+  @apply dark:bg-black dark:text-white;
+  /* dark:!border-0; */
+}
+.ag-viewport {
+  @apply dark:bg-black;
+}
+.ag-root {
+  /* @apply dark:!bg-black; */
+  /* @apply dark:text-white; */
+}
+.ag-wrapper {
+  @apply dark:bg-black;
+}
+.ag-root-wrapper {
+  /* @apply border-black; */
+}
+.ag-cell {
+  /* @apply !border-0; */
+}
+
+.ag-filter-body-wrapper {
+  @apply dark:bg-black dark:text-white;
+}
+
+.ag-input-field-input {
+  @apply dark:bg-gray-dark dark:text-white;
+}
+
+.ag-input-field-input::placeholder{
+  @apply dark:text-gray-light;
+}
+
+/* CkEditor Styling Here */
+.ck-editor *{
+  font-size: revert;
+  font-weight: revert;
+}
+.ck-editor__main{
+  min-height: 300px;
+}
+
+.ck-editor__editable{
+  min-height: 300px;
+}
+
+/* index.css or your CSS module */
+.ag-overlay-loading-wrapper {
+  @apply dark:bg-black/70;
+}
+
+.ag-overlay-loading-center {
+  @apply dark:text-white bg-inherit;
+}
+.ag-body-horizontal-scroll-viewport,
+.ag-center-cols-viewport {
+  scroll-behavior: auto;
+}

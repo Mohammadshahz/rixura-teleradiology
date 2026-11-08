@@ -1,0 +1,93 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Tailwind core (includes utilities and components) */
+
+@theme static {
+  --color-black: #2c2c2c;
+  --color-white: #ffffff;
+  --color-gray: #888888;
+  --color-gray-light: #bbbbbb;
+  --color-gray-light2: #eeeeee;
+  --color-gray-dark: #555555;
+
+  --color-primary: #3399ff; /* Blue */
+  --color-primary-light: #66b3ff;
+  --color-primary-dark: #004e85;
+
+  /* --color-secondary: hsl(30, 100%, 50%);  */
+  /* --color-secondary-light: hsl(30, 100%, 65%); */
+  /* --color-secondary-dark: hsl(30, 100%, 40%); */
+}
+
+@custom-variant dark (&:where(.dark, .dark *));
+
+html,
+body {
+  height: 100%;
+  transition: background-color 0.7s, color 0.3s !important;
+  @apply text-black bg-white dark:bg-black dark:text-white;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+}
+
+.ag-header {
+  @apply dark:!text-white dark:bg-gray-dark;
+}
+
+.ag-row,
+.ag-paging-panel {
+  @apply dark:bg-black dark:text-white;
+}
+.ag-viewport {
+  @apply dark:bg-black;
+}
+
+.ag-wrapper {
+  @apply dark:bg-black;
+}
+
+.ag-filter-body-wrapper {
+  @apply dark:bg-black dark:text-white;
+}
+
+.ag-input-field-input {
+  @apply dark:bg-gray-dark dark:text-white;
+  @apply dark:!border-gray-light;
+}
+
+.ag-input-field-input::placeholder{
+  @apply dark:text-gray-light;
+}
+
+.ag-picker-field-wrapper {
+  @apply dark:bg-gray-dark dark:text-white;
+  @apply dark:!border-gray-light;
+}
+
+.ag-select-list {
+  @apply dark:bg-gray dark:text-white;
+  @apply dark:!border-gray-light;
+}
+
+.ag-select-list-item {
+  @apply dark:hover:bg-primary-light;
+}
+
+/* index.css or your CSS module */
+.ag-overlay-loading-wrapper {
+  @apply dark:bg-black/70;
+}
+
+.ag-overlay-loading-center {
+  @apply dark:text-white bg-inherit;
+}
+.ag-body-horizontal-scroll-viewport,
+.ag-center-cols-viewport {
+  scroll-behavior: auto;
+}

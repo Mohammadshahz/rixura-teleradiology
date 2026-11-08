@@ -1,0 +1,7 @@
+export enum ReportStatus {
+  IDLE = 'IDLE',
+  ACCEPTED = 'ACCEPTED',
+  REPORTED = 'REPORTED',
+  REVERTED = 'REVERTED',
+  COMPLETED = 'COMPLETED',
+}
